@@ -1,0 +1,94 @@
+body {
+    background-color: #0006;
+    font-family: sans-serif;
+    color: #fff;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: auto;
+}
+
+.credits {
+    background-color: #0005;
+    color: #fff;
+}
+
+.link {
+    color: #333;
+}
+
+.container {
+    background-color: #0006;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    grid-template-rows: auto auto; /* Dos filas de altura automática */
+    gap: 10px; /* Espacio entre las cajas */
+}
+
+.card {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 30px #0006;
+    border-radius: 8px;
+}
+
+.blue-card {
+    background: #123;
+}
+
+.red-card {
+    background: #f86;
+}
+
+.green-card {
+    background: #5b7;
+}
+
+.yellow-card {
+    background: #fb0;
+}
+
+.card_title {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.card_subtitle {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.card_content {
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.card_img {
+    width: 90px;
+    border-radius: 90px;
+}
+
+.credits {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
